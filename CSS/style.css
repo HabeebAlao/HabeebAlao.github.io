@@ -169,7 +169,7 @@ li {
     flex-direction: column;
 }
 
-.about-me h3 {
+h3 {
     font-size: 4.65vw;
     font-weight: normal;
 }
@@ -222,4 +222,46 @@ li {
     bottom: 30px;
     right: 30px;
     padding: 10px;
+}
+
+.my-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10vh;
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.project-explaination {
+    padding: 0 10vh 0 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.project-demo-holder {
+    display: flex;
+    width: 50%;
+    height: 495px;
+    background: #fff;
+    border-radius: 10px;
+    background-repeat: none;
+    background-size: cover;
+    background: url("/HabeebAlao.github.io/images/studyStudio.png");
+}
+
+.project-descrption span {
+    color: #F35945;
+}
+
+.project h4 {
+    font-size: 6vh;
 }
