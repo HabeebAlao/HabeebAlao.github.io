@@ -66,7 +66,7 @@ li {
 
 .landing-section {
     display: flex;
-    margin: 25vh 10vw 25vh 10vw
+    margin: 25vh 10vw 40vh 10vw
 }
 
 .landing-section-text {
@@ -165,6 +165,7 @@ li {
     display: flex;
     width: 100%;
     margin-top: 0vh;
+    margin-bottom: 20vh;
     align-items: center;
     flex-direction: column;
 }
@@ -216,6 +217,7 @@ h3 {
 }
 
 #back-to-top-btn {
+    cursor: pointer;
     color: #fff;
     background-color: #F35945;
     position: fixed;
