@@ -1,6 +1,9 @@
 html {
-  font-family: 'Archivo Black';font-size: 22px;
-  background: #333333;
+  font-family: 'Archivo Black';
+  font-size: 22px;
+  line-height: normal;
+  background: #212121;
+  color: #FFFFFF;
 }
 
 body {
@@ -8,12 +11,11 @@ body {
   height: 100vh;
 }
 
-
 li {
   display: table-cell;
   position: relative;
 
-}
+} 
 
 .header-container{
   font: bold 14px/1.4 'Inter';
@@ -57,5 +59,53 @@ a:after {
   width: 0;
 }
 
+.landing-section {
+  display: flex;
+  margin: 10% 10% 0 10% 
+}
+.landing-section-text{
+  display: flex;
+  flex-direction: column;
+  width: 58%;
+}
+.landing-section-text{
+  font-family: 'Archivo Black';
+  color: #FFFFFF;
+}
 
+#landing-name{
+  margin: 0;
+  font-size: 8.5vw;
+}
 
+#landing-info {
+  margin: 0;
+  font-size: 4.65vw;
+  color: #CCCCCC
+}
+
+.landing-img-holder{
+  position: relative;
+  display: flex;
+  width: 30%;
+}
+.landing-img-holder img{
+  position: relative;
+  transform: translateX(-4.4vw);
+  max-height: 25vw;
+ 
+}
+
+.landing-stats {
+  align-items: center;
+  width: 25%;
+}
+
+.landing-stats p{
+  font-size: 2.0vw;
+}
+
+.landing-stats span{
+  font-size: 2.0vw;
+  color: #CCCCCC;
+}
