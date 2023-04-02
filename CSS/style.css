@@ -8,7 +8,7 @@ html {
 
 body {
   align-items: center;
-  height: 100vh;
+  height: 200vh;
 }
 
 li {
@@ -18,17 +18,24 @@ li {
 } 
 
 .header-container{
-  font: bold 14px/1.4 'Inter';
   display: flex;
+  top: 0;
+  height: 70px;
+  font: bold 14px/1.4 'Inter';
+  z-index: 9999 !important;
+  position: fixed;
+  backdrop-filter: blur(8px);
   justify-content: center;
   width: 100%;
+  
 }
 
 .header-container ul {
+  position: inherit;
   padding-left: 0;
   text-align: center;
-  backdrop-filter: blur(8px);
   z-index: 999;
+  backdrop-filter: blur(8px);
 }
 
 .nav-menu li a {
@@ -41,12 +48,12 @@ li {
   position: relative;
 }
 
-a:hover:after {
+.header-container a:hover:after {
   width: 100%;
   left: 0;
 }
 
-a:after {
+.header-container a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -75,6 +82,7 @@ a:after {
 
 #landing-name{
   margin: 0;
+  font-weight: unset;
   font-size: 8.5vw;
 }
 
@@ -109,3 +117,51 @@ a:after {
   font-size: 2.0vw;
   color: #CCCCCC;
 }
+
+.connect-links ul{
+  display: flex;
+  padding: 0px;
+}
+
+.connect-links ul li{
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5.5px;
+  margin-right: 1vw;
+  font-size: 0;
+  height: 2.5vw;
+  width: 2.5vw;
+
+  background-color: #F35945;
+}
+
+
+.connect-links ul li:nth-child(1)  a{
+  background: url("/HabeebAlao.github.io/images/githubLogo.png");
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.connect-links ul li:nth-child(2)  a{
+  background: url("/HabeebAlao.github.io/images/linkedinLogo.png");
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.connect-links ul li:nth-child(3)  a{
+  background: url("/HabeebAlao.github.io/images/mailLogo.png");
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
