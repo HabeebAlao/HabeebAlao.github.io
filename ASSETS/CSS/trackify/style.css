@@ -120,17 +120,38 @@ margin-left: -45vw;
     border-radius: 13px;
     height: 27vh;
     transform: translateX(3vw);
+    background-repeat: none;
+    background-size: cover;
+    background: url("/HabeebAlao.github.io/ASSETS/images/charts-and-graphs.png");
+    
 }
-
-.iphone-demo {
-    height: 32vh;
+.iphone-demo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 34vh;
     width: 12vw;
-    transform: translateY(-7vw)
-    translateX(-5vw);
-    background-size: contain;
+    transform: translateX(-2vw);
+    border-radius: 13px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/HabeebAlao.github.io/ASSETS/images/phone.png");
+    z-index: -4;
+
 }
+.iphone-demo {
+    height: 32vh;
+    width: 8vw;
+    transform: translateY(-7vw)
+    translateX(-5vw);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-image: url("/HabeebAlao.github.io/ASSETS/images/charts-and-graphs.png");
+}
+
+
 
 .call-to-btns{
     transform: translateY(32vh);
