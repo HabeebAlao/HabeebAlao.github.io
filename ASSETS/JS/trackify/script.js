@@ -16,4 +16,15 @@ $(document).ready(function() {
             scrollTop: $targetElement.offset().top
         }, 1000);
     });
+
+
+    $('.question').on('click', function () {
+        $('#faqs > div > div.question.active').removeClass('active');
+        $('.answer').hide();
+
+        $(this).addClass('active');
+        console.log(this);
+        $($(this).next()).show();
+        
+    })
 });
