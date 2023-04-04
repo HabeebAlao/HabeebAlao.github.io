@@ -317,3 +317,16 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+#iframe-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  #iframe-container iframe {
+    width: 100%;
+    border: none;
+    
+  }
+  

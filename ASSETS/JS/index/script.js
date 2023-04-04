@@ -48,4 +48,24 @@ $(document).ready(function() {
             }, 1000);
         });
     });
+    $(document).ready(function() {
+        var $iframe = $('#iframe-container iframe');
+    
+        // Smooth scrolling when hovering over the iframe
+        $iframe.on('mouseover', function() {
+            var iframeDoc = this.contentWindow.document;
+            $('html, body', iframeDoc).stop().animate({
+                scrollTop: $(iframeDoc).height()
+            }, 2000);
+        });
+    
+        // Smooth scrolling back to the top when not hovering
+        $iframe.on('mouseout', function() {
+            var iframeDoc = this.contentWindow.document;
+            $('html, body', iframeDoc).stop().animate({
+                scrollTop: 0
+            }, 2000);
+        });
+    });
+    
 });

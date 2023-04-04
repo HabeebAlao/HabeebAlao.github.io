@@ -24,7 +24,8 @@ $(document).ready(function() {
 
         $(this).addClass('active');
         console.log(this);
-        $($(this).next()).show();
+        $($(this).next()).slideDown( "slow");
         
     })
+    
 });
