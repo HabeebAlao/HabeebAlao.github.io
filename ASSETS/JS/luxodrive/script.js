@@ -22,7 +22,7 @@ const carDetails = {
         "year": "2020",
         "fuel": "Petrol",
         "litre": "6.7",
-        "imageUrl": "url_to_cullinan_image.jpg"
+        "imageUrl": "/HabeebAlao.github.io/ASSETS/images/RollsRoyce-Cullinan.png"
     },
     "g class": {
         "make": "Mercedes",
@@ -36,28 +36,28 @@ const carDetails = {
         "year": "2022",
         "fuel": "Petrol",
         "litre": "6.6",
-        "imageUrl": "url_to_wraith_image.jpg"
+        "imageUrl": "/HabeebAlao.github.io/ASSETS/images/RollsRoyce-wraith.png"
     },
     "wrangler": {
         "make": "Jeep",
         "year": "2021",
         "fuel": "Petrol",
         "litre": "3.6",
-        "imageUrl": "url_to_wrangler_image.jpg"
+        "imageUrl": "/HabeebAlao.github.io/ASSETS/images/jeep-wrangler.png"
     },
     "hurrican": {
         "make": "Lamborghini",
         "year": "2021",
         "fuel": "Petrol",
         "litre": "5.2",
-        "imageUrl": "url_to_hurrican_image.jpg"
+        "imageUrl": "/HabeebAlao.github.io/ASSETS/images/Lamborghini-Hurican.png"
     },
     "812": {
         "make": "Ferrari",
         "year": "2021",
         "fuel": "Petrol",
         "litre": "6.5",
-        "imageUrl": "url_to_812_image.jpg"
+        "imageUrl": "/HabeebAlao.github.io/ASSETS/images/Ferrari_812_Superfast.png"
     }
 };
 

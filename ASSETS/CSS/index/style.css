@@ -331,3 +331,22 @@ h3 {
     
   }
   
+
+  #see-more-btn{
+    background-color: #F35945;
+    border: none;
+    width: 10vw;
+    height: 4vw;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+  }
+
+  #see-more-btn :hover{
+    background-color: #F35945;
+    border: none;
+    
+  }
