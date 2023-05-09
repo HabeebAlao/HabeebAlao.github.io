@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LuxoDrive | Luxury Car Hire</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+    <link rel="stylesheet" href="/HabeebAlao.github.io/ASSETS/CSS/luxodrive/style.css">
+    <script src="/HabeebAlao.github.io/ASSETS/JS/luxodrive/script.js"></script>
+
+    <link rel="icon" href="/HabeebAlao.github.io/ASSETS/images/favicon3.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h3 id="main-logo">LuxoDrive</h3>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#book">Book</a></li>
+                <li><a href="#vehicle-models">Vehicle Models</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <h3 id="main-logo" style="visibility: hidden;">LuxoDrive</h3>
+        </div>
+        </div>
+        <div class="vector">
+            <div class="car-1"></div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="landing-section">
+            <H1 id="main-text">Hire Now!</H1>
+            <h2 id="main-desc">Rent your ideal car and make your dream come true. </h2>
+            <div class="action-bts">
+                <button id="btn-1">Book Ride</button>
+                <button id="btn-2">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section id="book">
+        <h2 class="section-heading">Book a Car</h2>
+        <div class="book-a-car">
+            <div class="row">
+                <label for="input-1">Book Start Date</label>
+                <input type="datetime" name="input-1" id="input-1" placeholder="MM/DD/YYYY">
+                <label for="input-2">Car Make</label>
+                <input type="text" name="input-2" id="input-2" placeholder="Mercedes">
+            </div>
+    
+            <div class="row">
+                <label for="input-3">Book End Date</label>
+                <input type="datetime" name="input-3" id="input-3" placeholder="MM/DD/YYYY">
+                <label for="input-4">Car Model</label>
+                <input type="text" name="input-4" id="input-4" placeholder="G Class">
+            </div>
+    
+            <div class="row">
+                <label for="input-5">Additional Comments</label>
+                <input type="text" name="input-5" id="input-5" placeholder="Extra Stuff">
+                <button id="submit-btn">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="vehicle-models">
+        <div class="our-fleet">
+            <div>
+                <h2 class="section-heading">Our Rental Fleet</h2>
+                <p class="section-sub-heading">Vehicle Models</p>
+            </div>
+            <div class="fleet-body">
+                <div class="model-selector">
+                    <button id="cullinan">Cullinan</button>
+                    <button id="g-class" class="active">G Class</button>
+                    <button id="wraith">Wraith</button>
+                    <button id="wrangler">Wrangler</button>
+                    <button id="hurrican">Hurrican</button>
+                    <button id="812">812</button>
+                </div>
+                <div class="car-display"></div>
+
+                <div class="car-stats">
+                    <div class="car-fee">
+                        <p id="car-daily-rate" class="active">£478 / per Day</p>
+                        <table>
+                            <tr>
+                                <p id="make">Mercedes</p>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Year</p>
+                                </td>
+                                <td id="year">
+                                    <p>2021</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Fuel</p>
+                                </td>
+                                <td id="fuel">
+                                    <p>Diesel</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Litre</p>
+                                </td>
+                                <td id="litre">
+                                    <p>6.0</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <button class="active">Reserve Now</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="faqs">
+        
+        <div class="faqs-section">
+            <h2 class="section-heading">FAQs</h2>
+            <div class="question iSactive">
+                <p>What documents and information do I need to provide for luxury car rental?</p>
+            </div>
+            <div class="answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+
+            <div class="question">
+                <p>What is the process for booking a luxury car online?</p>
+            </div>
+            <div class="answer" style="display: none;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+
+            <div class="question">
+                <p>Which luxury car models can I rent?</p>
+            </div>
+            <div class="answer" style="display: none;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+
+            <div class="question">
+                <p>How to book a luxury car online and payment options?</p>
+            </div>
+            <div class="answer" style="display: none;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+        </div>
+    </section>
+    <section class="download">
+        <div class="download-container">
+            <div class="download-text">
+                <h2>Download our app to get most out of it</h2>
+                <p>Thrown shy denote ten ladies though ask saw. Or by to he going think order event music. Incommode
+                    so intention defective at convinced. Led income months itself and houses you.</p>
+                <div class="download-text-btns">
+                        <img alt="download_img"
+                        src="/HabeebAlao.github.io/ASSETS/images/downloadimage.svg">
+                        <img alt="download_img"
+                        src="/HabeebAlao.github.io/ASSETS/images/downloadimage2.svg">
+                    </div>
+            </div>
+            <div class="phone-demo">
+                <p id="phone-text">LuxoDrive</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p class="footer-text">© 2023 Car Hire Website. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
