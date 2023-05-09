@@ -351,6 +351,7 @@ h3 {
     border: none;
     
   }
+ 
 
   @media screen and (max-width: 1286px) {
     .landing-section {
@@ -446,10 +447,29 @@ h3 {
         background-repeat: no-repeat;
         background-image: url("/HabeebAlao.github.io/ASSETS/images/icon_medal.png")
     }
+    .hidden{
+        display: none;
+    }
 
+    .about-me-header{
+        display: none;
+        text-align: center;
+    }
 
+    .active-header {
+        display: block;
+    }
+  
 }
+@media only screen and (min-width: 1286px) {
+    .active-header {
+      display: none;
+    }
+    .hidden{
+        display: none;
+    }
 
+  }
 @media screen and (max-width: 970px) {
     .about-me-content {
         display: flex;
@@ -497,6 +517,8 @@ h3 {
         height: 58px;
         margin: 0 20px;
     }
+    
+
 }
 
 @media screen and (max-width: 790px) {
@@ -586,6 +608,7 @@ h3 {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        overflow: hidden ;
     }
     .landing-stats {
         align-items: center;
@@ -634,12 +657,15 @@ h3 {
         margin: 0;
         font-weight: unset;
         font-size: 55px;
+        overflow: hidden;
     }
     #landing-info {
         margin: 0;
         font-size: 30px;
         color: #CCCCCC;
         width: 100%;
+        overflow: hidden;
+        text-overflow: clip;
     }
 
     .landing-section-text {
@@ -677,6 +703,18 @@ h3 {
         flex-direction: column;
         align-items: center;
     }
+
+    @keyframes scroll {
+        0% {
+          transform: translateY(0px) scale(1);
+        }
+        50% {
+          transform: translateY(-50px) scale(1.5);
+        }
+        100% {
+          transform: translateY(-100px) scale(2);
+        }
+      }
 
     .project {
         display: flex;
@@ -792,6 +830,7 @@ h3 {
         margin-top: 102px;
         padding-top: 78px;
     }
-      
+    
+
 }
 
