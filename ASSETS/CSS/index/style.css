@@ -135,7 +135,7 @@ html {
 }
 
 .connect-links ul li:nth-child(1) a {
-    background: url("/HabeebAlao.github.io/ASSETS/images/githubLogo.png");
+    background: url("../ASSETS/images/githubLogo.png");
     background-position: center;
     height: 100%;
     width: 100%;
@@ -144,7 +144,7 @@ html {
 }
 
 .connect-links ul li:nth-child(2) a {
-    background: url("/HabeebAlao.github.io/ASSETS/images/linkedinLogo.png");
+    background: url("../ASSETS/images/linkedinLogo.png");
     height: 100%;
     width: 100%;
     background-size: contain;
@@ -152,7 +152,7 @@ html {
 }
 
 .connect-links ul li:nth-child(3) a {
-    background: url("/HabeebAlao.github.io/ASSETS/images/mailLogo.png");
+    background: url("../ASSETS/images/mailLogo.png");
     height: 100%;
     width: 100%;
     background-size: contain;
@@ -257,7 +257,7 @@ h3 {
     border-radius: 10px;
     background-repeat: none;
     background-size: cover;
-    background: url("/HabeebAlao.github.io/ASSETS/images/studyStudio.png");
+    background: url("../ASSETS/images/studyStudio.png");
 }
 
 .project-descrption span {
@@ -303,7 +303,7 @@ h3 {
 }
 
 .connect-with-me-1 a:nth-child(1) {
-    background: url("/HabeebAlao.github.io/ASSETS/images/mailLogo.png");
+    background: url("../ASSETS/images/mailLogo.png");
     height: 100%;
     width: 100%;
     background-size: contain;
@@ -312,7 +312,7 @@ h3 {
 }
 
 .connect-with-me-2 a:nth-child(1) {
-    background: url("/HabeebAlao.github.io/ASSETS/images/linkedinLogo.png");
+    background: url("/ASSETS/images/linkedinLogo.png");
     height: 100%;
     width: 100%;
     background-size: contain;
@@ -417,35 +417,35 @@ h3 {
         background-position: center;
         background-size: 50%;
         background-repeat: no-repeat;
-        background-image: url("/HabeebAlao.github.io/ASSETS/images/icon_book.png")
+        background-image: url("../ASSETS/images/icon_book.png")
     }
 
     .about-side-menu ul li:nth-child(2){
         background-position: center;
         background-size: 50%;
         background-repeat: no-repeat;
-        background-image: url("/HabeebAlao.github.io/ASSETS/images/icon_suitcase.png")
+        background-image: url("../ASSETS/images/icon_suitcase.png")
     }
 
     .about-side-menu ul li:nth-child(3){
         background-position: center;
         background-size: 50%;
         background-repeat: no-repeat;
-        background-image: url("/HabeebAlao.github.io/ASSETS/images/icon_monitor.png")
+        background-image: url("../ASSETS/images/icon_monitor.png")
     }
 
     .about-side-menu ul li:nth-child(4){
         background-position: center;
         background-size: 50%;
         background-repeat: no-repeat;
-        background-image: url("/HabeebAlao.github.io/ASSETS/images/icon_smiley.png")
+        background-image: url("../ASSETS/images/icon_smiley.png")
     }
 
     .about-side-menu ul li:nth-child(5){
         background-position: center;
         background-size: 50%;
         background-repeat: no-repeat;
-        background-image: url("/HabeebAlao.github.io/ASSETS/images/icon_medal.png")
+        background-image: url("../ASSETS/images/icon_medal.png")
     }
     .hidden{
         display: none;
@@ -750,7 +750,7 @@ h3 {
         border-radius: 10px;
         background-repeat: none;
         background-size: cover;
-        background: url("/HabeebAlao.github.io/ASSETS/images/studyStudio.png");
+        background: url("../ASSETS/images/studyStudio.png");
     }
 
     .project-demo-holder {
@@ -802,14 +802,14 @@ h3 {
         background-size: contain ;
         background-color: #fff;
         background-repeat: no-repeat;
-        background-image: url("/HabeebAlao.github.io/ASSETS/images/trackify-demo.png");
+        background-image: url("../ASSETS/images/trackify-demo.png");
     }
 
     .demo-2{
         background-size: contain ;
         background-color: #fff;
         background-repeat: no-repeat;
-        background-image: url("/HabeebAlao.github.io/ASSETS/images/luxo-demo.png");
+        background-image: url("../ASSETS/images/luxo-demo.png");
     }
       
     .section-heading-h{
