@@ -73,7 +73,7 @@ section {
     height: 190vw;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("/HabeebAlao.github.io/ASSETS/images/vector_2.png");
+    background-image: url("../../images/vector_2.png");
     transform: rotate(-0.16deg);
 }
 
@@ -85,7 +85,7 @@ section {
     position: absolute;
     height: 32vw;
     width: 45vw;
-    background-image: url("/HabeebAlao.github.io/ASSETS/images/benz-g-class.png");
+    background-image: url("../../images/benz-g-class.png");
 }
 
 .landing-section {
@@ -224,7 +224,7 @@ label {
 .car-display{
     width: 40vw;
     height: 40vw;
-   background-image: url("/HabeebAlao.github.io/ASSETS/images/gClass2.png");
+   background-image: url("../../images/gClass2.png");
    background-position: center;
    background-size: contain;
    background-repeat:no-repeat ;
@@ -313,7 +313,7 @@ label {
 }
 
 .phone-demo{
-    background-image: url("/HabeebAlao.github.io/ASSETS/images/phone.png");
+    background-image: url("../../images/phone.png");
     height: 48vh;
     width: 46vw;
     margin-left: 2vw;

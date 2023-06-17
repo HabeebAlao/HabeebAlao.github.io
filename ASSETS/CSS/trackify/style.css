@@ -74,7 +74,7 @@ html {
     height: 80vw;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("/HabeebAlao.github.io/ASSETS/images/Vector_1.png");
+    background-image: url("../../images/Vector_1.png");
     transform: rotate(-0.16deg);
 }
 
@@ -122,7 +122,7 @@ margin-left: -45vw;
     transform: translateX(3vw);
     background-repeat: none;
     background-size: cover;
-    background: url("/HabeebAlao.github.io/ASSETS/images/charts-and-graphs.png");
+    background: url("../../images/charts-and-graphs.png");
     
 }
 .iphone-demo::before {
@@ -136,7 +136,7 @@ margin-left: -45vw;
     border-radius: 13px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("/HabeebAlao.github.io/ASSETS/images/phone.png");
+    background-image: url("../../images/phone.png");
     z-index: -4;
 
 }
@@ -148,7 +148,7 @@ margin-left: -45vw;
     background-size: cover;
     background-repeat: no-repeat;
 
-    background-image: url("/HabeebAlao.github.io/ASSETS/images/charts-and-graphs.png");
+    background-image: url("../../images/charts-and-graphs.png");
 }
 
 
@@ -211,7 +211,7 @@ margin-left: -45vw;
     
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-image: url("/HabeebAlao.github.io/ASSETS/images/lineChats.png");
+    background-image: url("../../images/lineChats.png");
 
 }
 .project p {
@@ -377,7 +377,7 @@ section {
     background-position: center;
     background-size: contain;
     background-color: #FFFFFF;
-    background-image: url("/HabeebAlao.github.io/ASSETS/images/phone_icon_1.png");
+    background-image: url("../../images/phone_icon_1.png");
 }
 
 #contact > div > div.contact-info.contact-email > div.icon{
@@ -387,7 +387,7 @@ section {
     width: 5vw;
     background-position: center;
     background-size: contain;
-    background-image: url("/HabeebAlao.github.io/ASSETS/images/mail_icon_1.png");
+    background-image: url("../../images/mail_icon_1.png");
 }
 .icon{
     font-size: 0;
