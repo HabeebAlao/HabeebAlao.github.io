@@ -33,7 +33,7 @@ $(document).ready(function() {
         var next = $(this).data('name');
         $('#' + next).show();
         //console.log(next);
-        if(screen.width > 1287){
+        if(screen.width < 1287){
             $('#about > div > div h4[data-name="' + next + '"]').show();
             $('#about > div > div h4[data-name="' + next + '"]').addClass('active-header');
 
