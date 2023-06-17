@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
 
     $('#about > div > div > div > ul > li').on('click', function() {
-
+        
         //get whats cufrently active
         var curr = $('#about > div > div > div > ul > li.active').data("name");
         var curr_header = $('#about > div > div h4.active-header').data("name");
@@ -32,10 +32,12 @@ $(document).ready(function() {
         // get what was just clicked and set to show
         var next = $(this).data('name');
         $('#' + next).show();
-        console.log(next);
-        $('#about > div > div h4[data-name="' + next + '"]').show();
-        $('#about > div > div h4[data-name="' + next + '"]').addClass('active-header');
+        //console.log(next);
+        if(screen.width > 1287){
+            $('#about > div > div h4[data-name="' + next + '"]').show();
+            $('#about > div > div h4[data-name="' + next + '"]').addClass('active-header');
 
+        }
         $(this).addClass('active');
     });
 
